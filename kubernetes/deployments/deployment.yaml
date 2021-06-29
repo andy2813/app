@@ -26,7 +26,8 @@ spec:
     spec:
       containers:
       - name: example-app
-        image: borjasprodolliet/natours-app:1.0.0
+        #image: borjasprodolliet/natours-app:1.0.0
+        image: ac2810/app:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 3001
