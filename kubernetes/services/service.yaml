@@ -5,7 +5,8 @@ metadata:
   labels:
     app: example-app
 spec:
-  type: LoadBalancer
+  #type: LoadBalancer
+  type: ClusterIP
   selector:
     app: example-app
   ports:
